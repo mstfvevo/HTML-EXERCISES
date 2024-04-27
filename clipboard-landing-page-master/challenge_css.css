@@ -1,5 +1,84 @@
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  color:  rgb(75 85 99);
+  text-align: center;
+}
+
+
+.logo{
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  place-items: center;
+}
+
+#logoresmi{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+p{
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  max-width: 734px;
+  text-align: center;
+
+}
+
+.section{
+  margin: 100px;
+
+
+}
+
+.buton{
+  display: flex;
+  place-items: center;
+  justify-items: center;
+  margin-left: 20px;
+  border-bottom-width: 4px;
+}
+
+
+
+
+.buton1{
+  flex-grow: 1; 
+  margin-right: 30px;
+  border-radius: 8px; /* Buton kenarlarının yuvarlaklığını ayarlayın */
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  cursor: pointer;
+  background-color: rgba(7, 254, 110 );
+  color: white;
+  border: none;
+  position: relative;
+  transition: color 0.4s linear;
+}
+
+
+
+.buton2{
+  flex-grow: 1; 
+  margin-right: 30px;
+  border-radius: 8px; 
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  cursor: pointer;
+  background-color: rgba(39, 204, 241);
+  color: white;
+  border: none;
+  position: relative;
+  transition: color 0.4s linear;
+}
+
+.buton1:hover{
+  color: #FFF ;
+  
+}
+
+.buton2:hover{
+  color: #fff;
+  
+}
