@@ -1,84 +1,76 @@
-h1{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 50px;
-  color:  rgb(75 85 99);
-  text-align: center;
+.logoo{
+  background-image: url(images/bg-header-desktop.png), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 10em 0;
+  
 }
 
-
-.logo{
+.baslik{
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  margin-top: -90px;
   display: grid;
-  justify-content: center;
-  margin-top: 100px;
-  place-items: center;
+  
+  
 }
 
-#logoresmi{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-
-p{
-  color: hsl(201, 11%, 66%);
-  font-size: 20px;
-  max-width: 734px;
+#icerik1{
   text-align: center;
-
+  color: #9FABB2;
+  font-family: 'Bai Jamjuree', sans-serif;
+  
 }
 
-.section{
-  margin: 100px;
-
-
+.baslik2{
+   padding: 20em 0;
+  text-align: center;
+  max-width: 50%;
+  display: grid;
+  margin: 0 auto;
+  
+  
 }
 
-.buton{
+#icerik2{
+  text-align: center;
+  color: #9FABB2;
+  font-family: 'Bai Jamjuree', sans-serif;
+  
+}
+
+.button-container {
+  
   display: flex;
-  place-items: center;
-  justify-items: center;
-  margin-left: 20px;
-  border-bottom-width: 4px;
-}
+  justify-content: center;
+  margin: 0 auto;
+  
 
-
-
-
-.buton1{
-  flex-grow: 1; 
-  margin-right: 30px;
-  border-radius: 8px; /* Buton kenarlarının yuvarlaklığını ayarlayın */
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  cursor: pointer;
-  background-color: rgba(7, 254, 110 );
-  color: white;
-  border: none;
-  position: relative;
-  transition: color 0.4s linear;
-}
-
-
-
-.buton2{
-  flex-grow: 1; 
-  margin-right: 30px;
-  border-radius: 8px; 
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  cursor: pointer;
-  background-color: rgba(39, 204, 241);
-  color: white;
-  border: none;
-  position: relative;
-  transition: color 0.4s linear;
-}
-
-.buton1:hover{
-  color: #FFF ;
+  
   
 }
 
-.buton2:hover{
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
   color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
   
 }
+
+.download-button:hover {
+  background-color: #0056b3; 
+}
+
+.download-button.ios {
+  background-color: #007bff; 
+
+.download-button.mac {
+  background-color: #333;
+}
+
